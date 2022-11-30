@@ -1,5 +1,112 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin: 0;
+}
+
+#main-header {
+  align-items: center;
+  background: #d94810;
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+  width: 100%;
+}
+
+#main-header h1 {
+  color: #f6e5b3;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+section {
+  margin: 1rem auto;
+  max-width: 90%;
+  width: 40rem;
+}
+
+section ul {
+  max-height: 20rem;
+  overflow: scroll;
+  padding: 1rem;
+}
+
+section > h2 {
+  color: #f6e5b3;
+}
+
+button {
+  background: #978058;
+  border: 1px solid #978058;
+  color: #f7ce81;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+}
+
+button.alt {
+  background: #f7ce81;
+  color: #978058;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: #f7ce81;
+  border: #f7ce81;
+  color: #978058;
+}
+
+.card {
+  background: #e7e5d0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  padding: 1rem;
+}
+
+#active-projects {
+  border: 1px solid #451c51;
+}
+
+#active-projects > header,
+#finished-projects > header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#active-projects > header {
+  background: #451c51;
+}
+
+#active-projects header h2,
+#finished-projects header h2 {
+  color: #f6e5b3;
+}
+
+#finished-projects {
+  border: 1px solid #68402c;
+}
+
+#finished-projects > header {
+  background: #68402c;
 }
