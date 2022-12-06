@@ -1,0 +1,38 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 5rem;
+}
+
+div {
+  border: 1px solid #d94810;
+  padding: 1.5rem 3rem;
+}
+
+h2 {
+  margin: 0 0 1rem;
+}
+
+button {
+  background: #d94810;
+  border: 1px solid #d94810;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+  color: #f6e5b3;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  transition: all 0.3s;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background: #f6e5b3;
+  border-color: #f6e5b3;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+  color: #d94810;
+}
