@@ -82,6 +82,14 @@ button:active {
   padding: 1rem;
 }
 
+.next-page {
+  color: #978058;
+  display: block;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+}
+
 #active-projects {
   border: 1px solid #451c51;
 }
