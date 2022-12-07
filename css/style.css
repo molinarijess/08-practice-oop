@@ -82,6 +82,10 @@ button:active {
   padding: 1rem;
 }
 
+.droppable {
+  background: #f6e5b3;
+}
+
 .next-page {
   color: #978058;
   display: block;
