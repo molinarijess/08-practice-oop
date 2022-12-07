@@ -36,3 +36,17 @@ button:active {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
   color: #d94810;
 }
+
+ul {
+  list-style: none;
+}
+
+li {
+  border: 1px solid #d94810;
+  padding: 1rem;
+}
+
+.highlight {
+  background: #d94810;
+  color: #f6e5b3;
+}
